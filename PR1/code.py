@@ -36,7 +36,6 @@ def task2_31 () :
             print ("Calculation error.")
         else:
             print (f'y = {y}')
-    # Цей вираз видає лише помилку.
 task2_31()
 
 def task_boolean25():
