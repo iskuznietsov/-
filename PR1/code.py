@@ -45,9 +45,6 @@ def task_boolean25():
     except:
         print("You must write an integer.")
     else:
-        if x < 0 and y > 0:
-            print("A point lies in the second quadrant")
-            return True
-        else:
-            print("A point does not lie in the second quadrant")
+        res = x < 0 and y > 0
+        print(f"A point lies in the second quadrant: {res}")
 task_boolean25()
